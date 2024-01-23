@@ -17,3 +17,9 @@ In `index.tsx` import only the specific components you want to use in your app. 
 Create a `declaration.d.ts` file. This has some TypeScript magic that prevents errors about unknown elements in your `tsx`.
 
 To use the components, see `App.tsx`. Do `import type...` to get reference to the TypeScript types of the components you want to work with. Use `ref` to programmatically access it. A couple gotchas: (1) Prefix the Shoelace component prop names with `prop:`. (2) If a prop is a singleton boolean like `open` specify it as `prop:open={true}`.
+
+## Usage
+```bash
+pnpm i
+pnpm dev
+```
