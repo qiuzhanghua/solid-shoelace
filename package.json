@@ -12,12 +12,12 @@
   "devDependencies": {
     "typescript": "^5",
     "vite": "^5",
-    "vite-plugin-solid": "^2",
-    "vite-plugin-static-copy": "^1"
+    "vite-plugin-solid": "^2.9.1",
+    "vite-plugin-static-copy": "^1.0.1"
   },
   "dependencies": {
-    "solid-js": "^1",
-    "@shoelace-style/shoelace": "^2"
+    "@shoelace-style/shoelace": "^2.13.1",
+    "solid-js": "^1.8.12"
   },
   "type": "module"
 }
